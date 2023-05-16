@@ -9,7 +9,7 @@ class ZipRepository implements RepositoryInterface
 {
     private $archive;
 
-    public bool $open = false;
+    public  $open = false;
 
     /**
      * Construct with a given path.
